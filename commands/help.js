@@ -57,20 +57,20 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+       .setImage('https://media.discordapp.net/attachments/1222854469620858973/1222879304531181589/standard_4.gif?ex=6617d21a&is=66055d1a&hm=56e55aea8f4055f652f47be0a4ee58bad68dbc147e566dc6b672bede78a7caf2&=&width=850&height=300')
       const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setLabel('Instagram')
+        .setURL('https://www.instagram.com/rally_hue?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
         .setLabel('Discord')
-        .setURL('https://discord.gg/FUEHs7RCqz')
+        .setURL('https://discord.gg/3QaPhdGxWx')
         .setStyle(ButtonStyle.Link);
 
       const button3 = new ButtonBuilder()
-        .setLabel('Code')
-        .setURL('https://github.com/RTX-GAMINGG/RTX-MUSIC-BOT-v3.6')
+        .setLabel('Facebook')
+        .setURL('https://www.facebook.com/profile.php?id=61554048449240')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
