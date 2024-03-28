@@ -484,7 +484,7 @@ await interaction.editReply({
               .setThumbnail(interaction.user.displayAvatarURL({ size: 2048, dynamic: true }))
               .setColor(client.config.embedColor)
               .setDescription('Timeout Use command again!'.replace("{name}", name))
-              .setFooter({ text: 'YouTube - RTX GAMING' })
+              .setFooter({ text: 'RALLY HUE' })
             return interaction.editReply({ embeds: [embed], components: [button] }).catch(e => { })
 
           })
@@ -507,7 +507,7 @@ await interaction.editReply({
           .setDescription(`\n${playlist?.playlist?.map(data =>
             `\n**${number++} |** \`${data.name}\` - **${playlist?.musics?.filter(m => m.playlist_name === data.name)?.length || 0}** plays (<t:${Math.floor(data.createdTime / 1000) }:R>)`
           ) }`)
-          .setFooter({ text: 'YouTube - RTX GAMING' })
+          .setFooter({ text: 'RALLY HUE' })
         return interaction.reply({ embeds: [embed] }).catch(e => { }) 
 
       }
